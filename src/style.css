@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+}
+
+main {
+    padding: 36px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+}
+.header--image {
+    height: 100%;
+}
+.header--title {
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header--project {
+    height: 100%;
+    
+}
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+.form--input {
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+}
+
+.form--button {
+    grid-column: 1 / -1;
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid #321195;
+    color: white;
+    background: rgb(144, 6, 132);
+    cursor: pointer;
+}
+
+.form--image{
+    height: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+/* .meme--image{
+    height: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+} */
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+  
+  /* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    left: 50%;
+    bottom: 8px;
+    right: 16px;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+  }
+  
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    /* border-style: dashed; */
+    display: inline-block;
+    margin-right: 2px;
+}
